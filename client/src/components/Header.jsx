@@ -8,11 +8,12 @@ function Header() {
     <Navbar className="border-b-2">
       <Link
         to={"/"}
-        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white text-white"
+        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold "
       >
-        <span className="px-2 py-1 bg-gradient-to-b from-indigo-600 via-purple-400 to-blue-500 rounded-xl">
-          Azaan&apos;s Blog
+        <span className="px-2 py-1 bg-gradient-to-b from-indigo-600 via-purple-400 to-blue-500 rounded-xl dark:text-white text-white">
+          Azaan&apos;s
         </span>
+        Blog
       </Link>
 
       <form>
