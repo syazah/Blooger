@@ -1,9 +1,5 @@
 function SignIn() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return <div className="min-h-screen">SIGNIN</div>;
 }
 
-export default SignIn
+export default SignIn;
